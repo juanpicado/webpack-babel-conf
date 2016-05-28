@@ -9,13 +9,13 @@ var babelConf = {
             loader: 'babel-loader',
             exclude: /node_modules/,
             query: {
-                presets: ['es2015', 'react']
+                presets: ['es2015']
             }
         }
         ]
     }
 };
 
-module.exports = function(params) {
-    return _.merge(DefaultConfig(...params), babelConf);
+module.exports = function() {
+    return _.merge(DefaultConfig.call(null, ...arguments), babelConf);
 };
