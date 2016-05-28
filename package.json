@@ -1,0 +1,18 @@
+{
+  "name": "webpack-babel-conf",
+  "version": "1.0.0",
+  "description": "webpack babel configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juan Picado <me@jotadeveloper.com> (http://jotadeveloper.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.13.1",
+    "babel-core": "^6.9.0",
+    "babel-loader": "^6.2.4",
+    "babel-register": "^6.9.0",
+    "webpack-simple-conf": "^1.0.0"
+  }
+}
