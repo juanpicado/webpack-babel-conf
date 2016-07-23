@@ -18,7 +18,7 @@ This module helps to reduce the overloaded webpack configuration using *babel* a
     module.exports = webpackConf;
 ````
 
-2. Run webpack in the root folder
+2. Run webpack in the root folder `webpack --config webpack.conf.js`
 3. See output file on `dist/index.min.js`
 
 #### Options
