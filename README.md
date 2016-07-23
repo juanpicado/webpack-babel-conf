@@ -2,6 +2,8 @@
 
 This module helps to reduce the overloaded webpack configuration using *babel* as a default loader, dependencies management.
 
+	npm install webpack-babel-conf --save-dev
+
 ## Usage
 
 1. Create a file in the root folder `webpack.conf.js` and add the following code.
