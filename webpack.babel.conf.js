@@ -9,7 +9,13 @@ var babelConf = {
             loader: 'babel-loader',
             exclude: /node_modules/,
             query: {
-                presets: ['es2015']
+                plugins: [
+                  'transform-object-rest-spread',
+                  'transform-exponentiation-operator',
+                  'transform-async-to-generator',
+                  'transform-exponentiation-operator'
+                ],
+                presets: ['es2015', 'stage-2', 'stage-3']
             }
         }
         ]
