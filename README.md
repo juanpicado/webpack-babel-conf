@@ -2,7 +2,7 @@
 
 This module helps to reduce the overloaded webpack configuration using *babel* as a default loader, dependencies management.
 
-	npm install webpack-babel-conf --save-dev
+    npm install webpack-babel-conf --save-dev
 
 ## Usage
 
@@ -12,6 +12,7 @@ This module helps to reduce the overloaded webpack configuration using *babel* a
     const configuration = require('webpack-babel-conf');
     const webpackConf = configuration(
     './src/index.js',
+    './build,
     'index.min.js',
     'myAppFoo',
     'umd');
@@ -19,7 +20,7 @@ This module helps to reduce the overloaded webpack configuration using *babel* a
 ````
 
 2. Run webpack in the root folder `webpack --config webpack.conf.js`
-3. See output file on `dist/index.min.js`
+3. Look the output file at `build/index.min.js`
 
 #### Options
 
